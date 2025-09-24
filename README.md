@@ -1,5 +1,8 @@
 ## font
 
+> [!IMPORTANT]
+> start with the creation of the [private lfs repo](./font-lfs)
+
 add private font repo as a git submodule
 
 ```bash
