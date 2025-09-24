@@ -24,8 +24,7 @@ jobs:
 
       - name: Compile
         run: |
-          export TYPST_FONT_PATHS="$GITHUB_WORKSPACE/vendor/private-fonts/fonts"
-          typst compile book.typ build/book.pdf
+          echo "use typst to compile with your font. it should be accessible at ./font-lfs/*"
 
       - name: Upload PDF (artifact only, NOT the font)
         uses: actions/upload-artifact@v4
