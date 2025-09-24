@@ -6,6 +6,14 @@
 git submodule add https://github.com/schnis/repo.git
 ```
 
+This pins the current HEAD of the remote. This will be used when cloning. To update the head run 
+
+```bash
+git submodule aupdate --remote
+```
+
+and push
+
 - commit and push
 
 ## workflow

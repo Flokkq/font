@@ -1,3 +1,4 @@
 [submodule "font-lfs"]
 	path = font-lfs
 	url = https://github.com/Flokkq/font-lfs.git
+    branch = main
